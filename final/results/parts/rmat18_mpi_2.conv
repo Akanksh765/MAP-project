@@ -1,0 +1,16 @@
+platform,graph,workers,iter,residual_l1
+mpi,rmat18,2,1,7.761208e-01
+mpi,rmat18,2,2,2.656548e-01
+mpi,rmat18,2,3,9.639426e-02
+mpi,rmat18,2,4,3.423414e-02
+mpi,rmat18,2,5,1.224344e-02
+mpi,rmat18,2,6,4.369716e-03
+mpi,rmat18,2,7,1.560674e-03
+mpi,rmat18,2,8,5.572678e-04
+mpi,rmat18,2,9,1.989999e-04
+mpi,rmat18,2,10,7.106172e-05
+mpi,rmat18,2,11,2.537567e-05
+mpi,rmat18,2,12,9.061675e-06
+mpi,rmat18,2,13,3.235927e-06
+mpi,rmat18,2,14,1.155588e-06
+mpi,rmat18,2,15,4.126770e-07
