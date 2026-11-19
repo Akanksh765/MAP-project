@@ -1,0 +1,288 @@
+[omp] rmat18 n=262144 m=3938572 threads=1
+  PR run 0: 15 iters, 0.1168 s, 7.785 ms/iter
+  PR run 1: 15 iters, 0.1172 s, 7.816 ms/iter
+  PR run 2: 15 iters, 0.1149 s, 7.659 ms/iter
+  BFS root 134330: 7 levels, 0.0178 s, 219.1 MTEPS
+  BFS root 213113: 8 levels, 0.0173 s, 225.4 MTEPS
+  BFS root 199076: 8 levels, 0.0168 s, 231.6 MTEPS
+  BFS root 17349: 7 levels, 0.0167 s, 233.5 MTEPS
+  BFS root 207660: 8 levels, 0.0163 s, 238.7 MTEPS
+  BFS root 213096: 7 levels, 0.0163 s, 239.6 MTEPS
+  BFS root 258497: 9 levels, 0.0170 s, 229.2 MTEPS
+  BFS root 155404: 7 levels, 0.0163 s, 239.0 MTEPS
+[omp] rmat18 n=262144 m=3938572 threads=2
+  PR run 0: 15 iters, 0.1023 s, 6.823 ms/iter
+  PR run 1: 15 iters, 0.1176 s, 7.842 ms/iter
+  PR run 2: 15 iters, 0.1139 s, 7.593 ms/iter
+  BFS root 134330: 7 levels, 0.0197 s, 198.5 MTEPS
+  BFS root 213113: 8 levels, 0.0210 s, 186.2 MTEPS
+  BFS root 199076: 8 levels, 0.0223 s, 174.6 MTEPS
+  BFS root 17349: 7 levels, 0.0168 s, 232.3 MTEPS
+  BFS root 207660: 8 levels, 0.0161 s, 241.7 MTEPS
+  BFS root 213096: 7 levels, 0.0165 s, 236.8 MTEPS
+  BFS root 258497: 9 levels, 0.0187 s, 208.4 MTEPS
+  BFS root 155404: 7 levels, 0.0180 s, 216.8 MTEPS
+[omp] rmat18 n=262144 m=3938572 threads=4
+  PR run 0: 15 iters, 0.1369 s, 9.129 ms/iter
+  PR run 1: 15 iters, 0.1165 s, 7.766 ms/iter
+  PR run 2: 15 iters, 0.1148 s, 7.651 ms/iter
+  BFS root 134330: 7 levels, 0.0225 s, 173.2 MTEPS
+  BFS root 213113: 8 levels, 0.0203 s, 192.4 MTEPS
+  BFS root 199076: 8 levels, 0.0206 s, 189.1 MTEPS
+  BFS root 17349: 7 levels, 0.0204 s, 190.9 MTEPS
+  BFS root 207660: 8 levels, 0.0203 s, 192.4 MTEPS
+  BFS root 213096: 7 levels, 0.0200 s, 194.7 MTEPS
+  BFS root 258497: 9 levels, 0.0209 s, 186.9 MTEPS
+  BFS root 155404: 7 levels, 0.0203 s, 192.3 MTEPS
+[mpi] rmat18 n=262144 m=3938572 ranks=1
+  PR run 0: 15 iters, 0.1212 s, 8.079 ms/iter, comm_frac=0.022
+  PR run 1: 15 iters, 0.1103 s, 7.351 ms/iter, comm_frac=0.023
+  PR run 2: 15 iters, 0.0856 s, 5.707 ms/iter, comm_frac=0.026
+  BFS root 134330: 7 levels, 0.0224 s, 174.0 MTEPS, comm_frac=0.004
+  BFS root 213113: 8 levels, 0.0223 s, 175.1 MTEPS, comm_frac=0.008
+  BFS root 199076: 8 levels, 0.0227 s, 172.1 MTEPS, comm_frac=0.004
+  BFS root 17349: 7 levels, 0.0278 s, 140.1 MTEPS, comm_frac=0.004
+  BFS root 207660: 8 levels, 0.0287 s, 136.1 MTEPS, comm_frac=0.003
+  BFS root 213096: 7 levels, 0.0257 s, 151.8 MTEPS, comm_frac=0.005
+  BFS root 258497: 9 levels, 0.0221 s, 176.5 MTEPS, comm_frac=0.003
+  BFS root 155404: 7 levels, 0.0210 s, 186.0 MTEPS, comm_frac=0.003
+[mpi] rmat18 n=262144 m=3938572 ranks=2
+  PR run 0: 15 iters, 0.1824 s, 12.162 ms/iter, comm_frac=0.220
+  PR run 1: 15 iters, 0.1416 s, 9.440 ms/iter, comm_frac=0.313
+  PR run 2: 15 iters, 0.1112 s, 7.411 ms/iter, comm_frac=0.262
+  BFS root 134330: 7 levels, 0.0234 s, 166.6 MTEPS, comm_frac=0.214
+  BFS root 213113: 8 levels, 0.0200 s, 195.4 MTEPS, comm_frac=0.215
+  BFS root 199076: 8 levels, 0.0207 s, 188.8 MTEPS, comm_frac=0.269
+  BFS root 17349: 7 levels, 0.0264 s, 147.7 MTEPS, comm_frac=0.072
+  BFS root 207660: 8 levels, 0.0223 s, 175.1 MTEPS, comm_frac=0.036
+  BFS root 213096: 7 levels, 0.0203 s, 191.8 MTEPS, comm_frac=0.319
+  BFS root 258497: 9 levels, 0.0222 s, 175.5 MTEPS, comm_frac=0.153
+  BFS root 155404: 7 levels, 0.0193 s, 201.6 MTEPS, comm_frac=0.346
+[mpi] rmat18 n=262144 m=3938572 ranks=4
+  PR run 0: 15 iters, 0.1866 s, 12.437 ms/iter, comm_frac=0.423
+  PR run 1: 15 iters, 0.1766 s, 11.774 ms/iter, comm_frac=0.620
+  PR run 2: 15 iters, 0.2200 s, 14.670 ms/iter, comm_frac=0.410
+  BFS root 134330: 7 levels, 0.0371 s, 105.1 MTEPS, comm_frac=0.482
+  BFS root 213113: 8 levels, 0.0349 s, 111.6 MTEPS, comm_frac=0.480
+  BFS root 199076: 8 levels, 0.0309 s, 126.3 MTEPS, comm_frac=0.453
+  BFS root 17349: 7 levels, 0.0374 s, 104.4 MTEPS, comm_frac=0.684
+  BFS root 207660: 8 levels, 0.0336 s, 116.2 MTEPS, comm_frac=0.335
+  BFS root 213096: 7 levels, 0.0301 s, 129.4 MTEPS, comm_frac=0.445
+  BFS root 258497: 9 levels, 0.0316 s, 123.3 MTEPS, comm_frac=0.473
+  BFS root 155404: 7 levels, 0.0282 s, 138.3 MTEPS, comm_frac=0.628
+[omp] road512 n=262144 m=941794 threads=1
+  PR run 0: 51 iters, 0.0923 s, 1.809 ms/iter
+  PR run 1: 51 iters, 0.0931 s, 1.825 ms/iter
+  PR run 2: 51 iters, 0.0914 s, 1.792 ms/iter
+  BFS root 134330: 588 levels, 0.0074 s, 127.4 MTEPS
+  BFS root 213113: 807 levels, 0.0067 s, 141.4 MTEPS
+  BFS root 67837: 638 levels, 0.0059 s, 159.4 MTEPS
+  BFS root 116002: 576 levels, 0.0061 s, 155.5 MTEPS
+  BFS root 199076: 809 levels, 0.0071 s, 131.9 MTEPS
+  BFS root 17349: 932 levels, 0.0062 s, 152.6 MTEPS
+  BFS root 114232: 744 levels, 0.0057 s, 165.1 MTEPS
+  BFS root 207660: 706 levels, 0.0075 s, 125.6 MTEPS
+[omp] road512 n=262144 m=941794 threads=2
+  PR run 0: 51 iters, 0.1057 s, 2.072 ms/iter
+  PR run 1: 51 iters, 0.0991 s, 1.944 ms/iter
+  PR run 2: 51 iters, 0.0916 s, 1.796 ms/iter
+  BFS root 134330: 588 levels, 0.0105 s, 89.6 MTEPS
+  BFS root 213113: 807 levels, 0.0119 s, 79.3 MTEPS
+  BFS root 67837: 638 levels, 0.0105 s, 89.4 MTEPS
+  BFS root 116002: 576 levels, 0.0106 s, 88.6 MTEPS
+  BFS root 199076: 809 levels, 0.0123 s, 76.7 MTEPS
+  BFS root 17349: 932 levels, 0.0134 s, 70.3 MTEPS
+  BFS root 114232: 744 levels, 0.0123 s, 76.6 MTEPS
+  BFS root 207660: 706 levels, 0.0136 s, 69.3 MTEPS
+[omp] road512 n=262144 m=941794 threads=4
+  PR run 0: 51 iters, 0.1106 s, 2.168 ms/iter
+  PR run 1: 51 iters, 0.1075 s, 2.107 ms/iter
+  PR run 2: 51 iters, 0.0967 s, 1.896 ms/iter
+  BFS root 134330: 588 levels, 0.0172 s, 54.7 MTEPS
+  BFS root 213113: 807 levels, 0.0214 s, 44.1 MTEPS
+  BFS root 67837: 638 levels, 0.0187 s, 50.5 MTEPS
+  BFS root 116002: 576 levels, 0.0176 s, 53.6 MTEPS
+  BFS root 199076: 809 levels, 0.0222 s, 42.4 MTEPS
+  BFS root 17349: 932 levels, 0.0247 s, 38.1 MTEPS
+  BFS root 114232: 744 levels, 0.0208 s, 45.4 MTEPS
+  BFS root 207660: 706 levels, 0.0200 s, 47.1 MTEPS
+[mpi] road512 n=262144 m=941794 ranks=1
+  PR run 0: 51 iters, 0.1278 s, 2.506 ms/iter, comm_frac=0.064
+  PR run 1: 51 iters, 0.0975 s, 1.911 ms/iter, comm_frac=0.080
+  PR run 2: 51 iters, 0.0989 s, 1.940 ms/iter, comm_frac=0.081
+  BFS root 134330: 588 levels, 0.0057 s, 166.1 MTEPS, comm_frac=0.017
+  BFS root 213113: 807 levels, 0.0055 s, 171.2 MTEPS, comm_frac=0.048
+  BFS root 67837: 638 levels, 0.0060 s, 155.7 MTEPS, comm_frac=0.017
+  BFS root 116002: 576 levels, 0.0057 s, 164.3 MTEPS, comm_frac=0.017
+  BFS root 199076: 809 levels, 0.0060 s, 158.0 MTEPS, comm_frac=0.020
+  BFS root 17349: 932 levels, 0.0058 s, 161.8 MTEPS, comm_frac=0.023
+  BFS root 114232: 744 levels, 0.0054 s, 174.5 MTEPS, comm_frac=0.020
+  BFS root 207660: 706 levels, 0.0056 s, 166.8 MTEPS, comm_frac=0.018
+[mpi] road512 n=262144 m=941794 ranks=2
+  PR run 0: 51 iters, 0.1378 s, 2.703 ms/iter, comm_frac=0.574
+  PR run 1: 51 iters, 0.1403 s, 2.751 ms/iter, comm_frac=0.530
+  PR run 2: 51 iters, 0.1409 s, 2.762 ms/iter, comm_frac=0.565
+  BFS root 134330: 588 levels, 0.0102 s, 92.0 MTEPS, comm_frac=0.667
+  BFS root 213113: 807 levels, 0.0099 s, 95.6 MTEPS, comm_frac=0.671
+  BFS root 67837: 638 levels, 0.0105 s, 89.7 MTEPS, comm_frac=0.615
+  BFS root 116002: 576 levels, 0.0099 s, 94.9 MTEPS, comm_frac=0.621
+  BFS root 199076: 809 levels, 0.0108 s, 87.0 MTEPS, comm_frac=0.626
+  BFS root 17349: 932 levels, 0.0116 s, 81.3 MTEPS, comm_frac=0.641
+  BFS root 114232: 744 levels, 0.0099 s, 95.5 MTEPS, comm_frac=0.631
+  BFS root 207660: 706 levels, 0.0096 s, 98.4 MTEPS, comm_frac=0.653
+[mpi] road512 n=262144 m=941794 ranks=4
+  PR run 0: 51 iters, 0.2227 s, 4.368 ms/iter, comm_frac=0.786
+  PR run 1: 51 iters, 0.2081 s, 4.080 ms/iter, comm_frac=0.774
+  PR run 2: 51 iters, 0.2069 s, 4.058 ms/iter, comm_frac=0.794
+  BFS root 134330: 588 levels, 0.0270 s, 34.9 MTEPS, comm_frac=0.904
+  BFS root 213113: 807 levels, 0.0374 s, 25.2 MTEPS, comm_frac=0.922
+  BFS root 67837: 638 levels, 0.0352 s, 26.7 MTEPS, comm_frac=0.895
+  BFS root 116002: 576 levels, 0.0322 s, 29.3 MTEPS, comm_frac=0.899
+  BFS root 199076: 809 levels, 0.0393 s, 24.0 MTEPS, comm_frac=0.914
+  BFS root 17349: 932 levels, 0.0308 s, 30.6 MTEPS, comm_frac=0.892
+  BFS root 114232: 744 levels, 0.0309 s, 30.4 MTEPS, comm_frac=0.905
+  BFS root 207660: 706 levels, 0.0318 s, 29.6 MTEPS, comm_frac=0.909
+[omp] rmat20 n=1048576 m=16084975 threads=1
+  PR run 0: 16 iters, 1.0197 s, 63.733 ms/iter
+  PR run 1: 16 iters, 1.0146 s, 63.415 ms/iter
+  PR run 2: 16 iters, 1.0097 s, 63.107 ms/iter
+  BFS root 134330: 7 levels, 0.1283 s, 124.2 MTEPS
+  BFS root 329981: 7 levels, 0.1548 s, 102.9 MTEPS
+  BFS root 902434: 8 levels, 0.1082 s, 147.3 MTEPS
+  BFS root 376376: 8 levels, 0.1312 s, 121.4 MTEPS
+  BFS root 469804: 7 levels, 0.1170 s, 136.2 MTEPS
+  BFS root 3797: 8 levels, 0.1155 s, 138.0 MTEPS
+  BFS root 210713: 7 levels, 0.1331 s, 119.8 MTEPS
+  BFS root 515726: 7 levels, 0.1235 s, 129.1 MTEPS
+[omp] rmat20 n=1048576 m=16084975 threads=2
+  PR run 0: 16 iters, 0.8744 s, 54.649 ms/iter
+  PR run 1: 16 iters, 0.8854 s, 55.335 ms/iter
+  PR run 2: 16 iters, 0.8947 s, 55.916 ms/iter
+  BFS root 134330: 7 levels, 0.1333 s, 119.6 MTEPS
+  BFS root 329981: 7 levels, 0.1287 s, 123.8 MTEPS
+  BFS root 902434: 8 levels, 0.1284 s, 124.1 MTEPS
+  BFS root 376376: 8 levels, 0.1178 s, 135.3 MTEPS
+  BFS root 469804: 7 levels, 0.1091 s, 146.1 MTEPS
+  BFS root 3797: 8 levels, 0.1245 s, 128.0 MTEPS
+  BFS root 210713: 7 levels, 0.1471 s, 108.3 MTEPS
+  BFS root 515726: 7 levels, 0.1471 s, 108.4 MTEPS
+[omp] rmat20 n=1048576 m=16084975 threads=4
+  PR run 0: 16 iters, 0.9059 s, 56.617 ms/iter
+  PR run 1: 16 iters, 0.8788 s, 54.923 ms/iter
+  PR run 2: 16 iters, 0.8913 s, 55.709 ms/iter
+  BFS root 134330: 7 levels, 0.1472 s, 108.3 MTEPS
+  BFS root 329981: 7 levels, 0.1311 s, 121.5 MTEPS
+  BFS root 902434: 8 levels, 0.1108 s, 143.8 MTEPS
+  BFS root 376376: 8 levels, 0.1080 s, 147.6 MTEPS
+  BFS root 469804: 7 levels, 0.1183 s, 134.8 MTEPS
+  BFS root 3797: 8 levels, 0.1217 s, 131.0 MTEPS
+  BFS root 210713: 7 levels, 0.1408 s, 113.2 MTEPS
+  BFS root 515726: 7 levels, 0.1217 s, 130.9 MTEPS
+[mpi] rmat20 n=1048576 m=16084975 ranks=1
+  PR run 0: 16 iters, 0.8553 s, 53.459 ms/iter, comm_frac=0.021
+  PR run 1: 16 iters, 0.9765 s, 61.032 ms/iter, comm_frac=0.021
+  PR run 2: 16 iters, 0.9837 s, 61.482 ms/iter, comm_frac=0.020
+  BFS root 134330: 7 levels, 0.1381 s, 115.4 MTEPS, comm_frac=0.003
+  BFS root 329981: 7 levels, 0.1529 s, 104.2 MTEPS, comm_frac=0.003
+  BFS root 902434: 8 levels, 0.1299 s, 122.7 MTEPS, comm_frac=0.004
+  BFS root 376376: 8 levels, 0.1534 s, 103.9 MTEPS, comm_frac=0.003
+  BFS root 469804: 7 levels, 0.1822 s, 87.5 MTEPS, comm_frac=0.003
+  BFS root 3797: 8 levels, 0.1439 s, 110.8 MTEPS, comm_frac=0.003
+  BFS root 210713: 7 levels, 0.1459 s, 109.2 MTEPS, comm_frac=0.003
+  BFS root 515726: 7 levels, 0.1702 s, 93.6 MTEPS, comm_frac=0.003
+[mpi] rmat20 n=1048576 m=16084975 ranks=2
+  PR run 0: 16 iters, 0.9710 s, 60.690 ms/iter, comm_frac=0.069
+  PR run 1: 16 iters, 1.0274 s, 64.211 ms/iter, comm_frac=0.065
+  PR run 2: 16 iters, 1.1347 s, 70.916 ms/iter, comm_frac=0.077
+  BFS root 134330: 7 levels, 0.1978 s, 80.6 MTEPS, comm_frac=0.044
+  BFS root 329981: 7 levels, 0.1681 s, 94.8 MTEPS, comm_frac=0.037
+  BFS root 902434: 8 levels, 0.1730 s, 92.1 MTEPS, comm_frac=0.067
+  BFS root 376376: 8 levels, 0.1929 s, 82.6 MTEPS, comm_frac=0.059
+  BFS root 469804: 7 levels, 0.2334 s, 68.3 MTEPS, comm_frac=0.034
+  BFS root 3797: 8 levels, 0.1626 s, 98.0 MTEPS, comm_frac=0.064
+  BFS root 210713: 7 levels, 0.1640 s, 97.2 MTEPS, comm_frac=0.079
+  BFS root 515726: 7 levels, 0.1936 s, 82.3 MTEPS, comm_frac=0.044
+[mpi] rmat20 n=1048576 m=16084975 ranks=4
+  PR run 0: 16 iters, 1.3119 s, 81.992 ms/iter, comm_frac=0.153
+  PR run 1: 16 iters, 1.3666 s, 85.412 ms/iter, comm_frac=0.150
+  PR run 2: 16 iters, 1.3590 s, 84.936 ms/iter, comm_frac=0.132
+  BFS root 134330: 7 levels, 0.1990 s, 80.1 MTEPS, comm_frac=0.189
+  BFS root 329981: 7 levels, 0.2037 s, 78.3 MTEPS, comm_frac=0.156
+  BFS root 902434: 8 levels, 0.1779 s, 89.6 MTEPS, comm_frac=0.148
+  BFS root 376376: 8 levels, 0.1869 s, 85.3 MTEPS, comm_frac=0.124
+  BFS root 469804: 7 levels, 0.2585 s, 61.7 MTEPS, comm_frac=0.091
+  BFS root 3797: 8 levels, 0.2166 s, 73.6 MTEPS, comm_frac=0.104
+  BFS root 210713: 7 levels, 0.1737 s, 91.7 MTEPS, comm_frac=0.134
+  BFS root 515726: 7 levels, 0.2186 s, 72.9 MTEPS, comm_frac=0.118
+[omp] road1024 n=1048576 m=3771302 threads=1
+  PR run 0: 51 iters, 0.3621 s, 7.099 ms/iter
+  PR run 1: 51 iters, 0.3507 s, 6.877 ms/iter
+  PR run 2: 51 iters, 0.3084 s, 6.047 ms/iter
+  BFS root 134330: 1730 levels, 0.0208 s, 181.4 MTEPS
+  BFS root 999545: 1880 levels, 0.0203 s, 185.6 MTEPS
+  BFS root 329981: 1472 levels, 0.0211 s, 179.0 MTEPS
+  BFS root 902434: 1616 levels, 0.0212 s, 177.7 MTEPS
+  BFS root 723364: 1311 levels, 0.0244 s, 154.9 MTEPS
+  BFS root 803781: 1750 levels, 0.0320 s, 118.0 MTEPS
+  BFS root 376376: 1225 levels, 0.0303 s, 124.5 MTEPS
+  BFS root 469804: 1378 levels, 0.0314 s, 120.2 MTEPS
+[omp] road1024 n=1048576 m=3771302 threads=2
+  PR run 0: 51 iters, 0.3479 s, 6.821 ms/iter
+  PR run 1: 51 iters, 0.3873 s, 7.595 ms/iter
+  PR run 2: 51 iters, 0.3772 s, 7.395 ms/iter
+  BFS root 134330: 1730 levels, 0.0423 s, 89.2 MTEPS
+  BFS root 999545: 1880 levels, 0.0404 s, 93.4 MTEPS
+  BFS root 329981: 1472 levels, 0.0403 s, 93.6 MTEPS
+  BFS root 902434: 1616 levels, 0.0451 s, 83.6 MTEPS
+  BFS root 723364: 1311 levels, 0.0407 s, 92.6 MTEPS
+  BFS root 803781: 1750 levels, 0.0445 s, 84.8 MTEPS
+  BFS root 376376: 1225 levels, 0.0396 s, 95.2 MTEPS
+  BFS root 469804: 1378 levels, 0.0404 s, 93.4 MTEPS
+[omp] road1024 n=1048576 m=3771302 threads=4
+  PR run 0: 51 iters, 0.3890 s, 7.627 ms/iter
+  PR run 1: 51 iters, 0.3913 s, 7.672 ms/iter
+  PR run 2: 51 iters, 0.4011 s, 7.864 ms/iter
+  BFS root 134330: 1730 levels, 0.0642 s, 58.7 MTEPS
+  BFS root 999545: 1880 levels, 0.0672 s, 56.1 MTEPS
+  BFS root 329981: 1472 levels, 0.0588 s, 64.1 MTEPS
+  BFS root 902434: 1616 levels, 0.0628 s, 60.1 MTEPS
+  BFS root 723364: 1311 levels, 0.0578 s, 65.2 MTEPS
+  BFS root 803781: 1750 levels, 0.0707 s, 53.4 MTEPS
+  BFS root 376376: 1225 levels, 0.0564 s, 66.9 MTEPS
+  BFS root 469804: 1378 levels, 0.0624 s, 60.4 MTEPS
+[mpi] road1024 n=1048576 m=3771302 ranks=1
+  PR run 0: 51 iters, 0.4111 s, 8.060 ms/iter, comm_frac=0.075
+  PR run 1: 51 iters, 0.4076 s, 7.992 ms/iter, comm_frac=0.077
+  PR run 2: 51 iters, 0.4089 s, 8.017 ms/iter, comm_frac=0.082
+  BFS root 134330: 1730 levels, 0.0295 s, 127.8 MTEPS, comm_frac=0.012
+  BFS root 999545: 1880 levels, 0.0286 s, 131.7 MTEPS, comm_frac=0.012
+  BFS root 329981: 1472 levels, 0.0310 s, 121.6 MTEPS, comm_frac=0.011
+  BFS root 902434: 1616 levels, 0.0297 s, 126.9 MTEPS, comm_frac=0.012
+  BFS root 723364: 1311 levels, 0.0315 s, 119.6 MTEPS, comm_frac=0.010
+  BFS root 803781: 1750 levels, 0.0337 s, 112.0 MTEPS, comm_frac=0.011
+  BFS root 376376: 1225 levels, 0.0359 s, 105.0 MTEPS, comm_frac=0.011
+  BFS root 469804: 1378 levels, 0.0339 s, 111.4 MTEPS, comm_frac=0.010
+[mpi] road1024 n=1048576 m=3771302 ranks=2
+  PR run 0: 51 iters, 0.5566 s, 10.913 ms/iter, comm_frac=0.276
+  PR run 1: 51 iters, 0.5377 s, 10.544 ms/iter, comm_frac=0.281
+  PR run 2: 51 iters, 0.6004 s, 11.772 ms/iter, comm_frac=0.301
+  BFS root 134330: 1730 levels, 0.0540 s, 69.9 MTEPS, comm_frac=0.577
+  BFS root 999545: 1880 levels, 0.0515 s, 73.2 MTEPS, comm_frac=0.595
+  BFS root 329981: 1472 levels, 0.0539 s, 70.0 MTEPS, comm_frac=0.557
+  BFS root 902434: 1616 levels, 0.0512 s, 73.6 MTEPS, comm_frac=0.584
+  BFS root 723364: 1311 levels, 0.0543 s, 69.5 MTEPS, comm_frac=0.579
+  BFS root 803781: 1750 levels, 0.0558 s, 67.6 MTEPS, comm_frac=0.587
+  BFS root 376376: 1225 levels, 0.0562 s, 67.1 MTEPS, comm_frac=0.554
+  BFS root 469804: 1378 levels, 0.0557 s, 67.7 MTEPS, comm_frac=0.559
+[mpi] road1024 n=1048576 m=3771302 ranks=4
+  PR run 0: 51 iters, 0.8444 s, 16.556 ms/iter, comm_frac=0.666
+  PR run 1: 51 iters, 0.9582 s, 18.788 ms/iter, comm_frac=0.696
+  PR run 2: 51 iters, 0.9446 s, 18.521 ms/iter, comm_frac=0.706
+  BFS root 134330: 1730 levels, 0.0980 s, 38.5 MTEPS, comm_frac=0.836
+  BFS root 999545: 1880 levels, 0.0918 s, 41.1 MTEPS, comm_frac=0.855
+  BFS root 329981: 1472 levels, 0.0905 s, 41.6 MTEPS, comm_frac=0.841
+  BFS root 902434: 1616 levels, 0.1205 s, 31.3 MTEPS, comm_frac=0.856
+  BFS root 723364: 1311 levels, 0.1056 s, 35.7 MTEPS, comm_frac=0.857
+  BFS root 803781: 1750 levels, 0.1075 s, 35.1 MTEPS, comm_frac=0.847
+  BFS root 376376: 1225 levels, 0.1057 s, 35.7 MTEPS, comm_frac=0.830
+  BFS root 469804: 1378 levels, 0.1129 s, 33.4 MTEPS, comm_frac=0.809

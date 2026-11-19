@@ -1,0 +1,5 @@
+graph,type,n,m,avg_deg,max_out,max_in,dangling_pct,pr_iters,bfs_levels,contraction
+rmat18,power-law,262144,3938572,15.02,15811,16022,43.2,15,7,0.357
+road512,road-like,262144,941794,3.59,4,4,0.0,51,725,0.833
+rmat20,power-law,1048576,16084975,15.34,39741,39466,47.8,16,7,0.397
+road1024,road-like,1048576,3771302,3.6,4,4,0.0,51,1544,0.833
